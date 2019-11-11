@@ -1,19 +1,27 @@
 <template>
-  <router-link
-    class="event-link"
-    v-bind:to="{ name: 'event-show', params: { id: 'some-event' } }"
-  >
-    <EventCard />
+  <div class="event-link">
+    <EventCard v-for="event in events" :key="event.id" :event="event" />
     <BaseIcon />
-  </router-link>
+  </div>
 </template>
 
 <script>
 import EventCard from '@/components/EventCard.vue'
+import EventService from '../services/EventService.js'
 
 export default {
   components: {
     EventCard
+  },
+  data() {
+    return {
+      events: []
+    }
+  },
+  created() {
+    EventService.getEvents()
+      .then(res => (this.events = res.data))
+      .catch(err => console.log(`error: ${err}`))
   }
 }
 </script>
