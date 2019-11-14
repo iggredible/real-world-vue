@@ -9,6 +9,11 @@ Vue.use(VueRouter)
 
 const routes = [
   {
+    path: '/event/create',
+    name: 'event-create',
+    component: EventCreate
+  },
+  {
     path: '/',
     name: 'event-list',
     component: EventList
@@ -18,11 +23,6 @@ const routes = [
     name: 'event-show',
     component: EventShow,
     props: true
-  },
-  {
-    path: '/event/create',
-    name: 'event-create',
-    component: EventCreate
   }
 ]
 

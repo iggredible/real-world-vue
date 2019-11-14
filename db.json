@@ -1,48 +1,257 @@
 {
   "events": [
     {
-      "id": 5928101,
-      "user": {
-        "id": "abc123",
-        "name": "Adam"
-      },
+      "id": 1,
+      "title": "Beach Cleanup",
+      "date": "Aug 28 2018",
+      "time": "10:00",
+      "location": "Daytona Beach",
+      "description": "Let's clean up this beach.",
+      "organizer": "Adam Jahr",
+      "category": "sustainability",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        },
+        {
+          "id": "def456",
+          "name": "Gregg Pollack"
+        },
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Park Cleanup",
+      "date": "Nov 12 2018",
+      "time": "12:00",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "description": "We're going to clean up this park.",
+      "organizer": "Adam Jahr",
+      "category": "nature",
+      "attendees": [
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Pet Adoption Day",
+      "date": "Dec 2 2018",
+      "time": "12:00",
+      "location": "132 N Magnolia Street, Orlando, Florida",
+      "description": "Help animals find new homes.",
+      "organizer": "Gregg Pollack",
       "category": "animal welfare",
-      "organizer": "Adam",
-      "title": "Cat Cabaret",
-      "description": "Yay felines!",
-      "location": "Meow Town",
-      "date": "2019-01-03T21:54:00.000Z",
+      "attendees": [
+        {
+          "id": "abc123",
+          "name": "Adam Jahr"
+        },
+        {
+          "id": "ghi789",
+          "name": "Beth Swanson"
+        },
+        {
+          "id": "jkl101",
+          "name": "Mary Gordon"
+        }
+      ]
+    },
+    {
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "afd",
+      "description": "asdf",
+      "location": "asfd",
+      "date": "2019-11-07T20:11:00.000Z",
       "time": "2:00",
-      "attendees": []
+      "attendees": [],
+      "id": 2204759
     },
     {
-      "id": 8419988,
-      "user": {
+      "category": "education",
+      "organizer": {
         "id": "abc123",
-        "name": "Adam"
+        "name": "Adam Jahr"
       },
-      "category": "animal welfare",
-      "organizer": "Adam",
-      "title": "Kitty Cluster",
-      "description": "Yay cats!",
-      "location": "Catlandia",
-      "date": "2019-01-31T22:09:00.000Z",
-      "time": "7:00",
-      "attendees": []
+      "title": "afd",
+      "description": "asdf",
+      "location": "asfd",
+      "date": "2019-11-07T20:11:00.000Z",
+      "time": "2:00",
+      "attendees": [],
+      "id": 2204760
     },
     {
-      "id": 4582797,
-      "user": {
+      "category": "education",
+      "organizer": {
         "id": "abc123",
-        "name": "Adam"
+        "name": "Adam Jahr"
       },
-      "category": "animal welfare",
-      "organizer": "Adam",
-      "title": "Puppy Parade",
-      "description": "Yay pups!",
-      "location": "Puptown ",
-      "date": "2019-02-02T23:27:00.000Z",
-      "time": "1:00",
+      "title": "afd",
+      "description": "asdf",
+      "location": "asfd",
+      "date": "2019-11-07T20:11:00.000Z",
+      "time": "2:00",
+      "attendees": [],
+      "id": 2204761
+    },
+    {
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "afd",
+      "description": "asdf",
+      "location": "asfd",
+      "date": "2019-11-07T20:11:00.000Z",
+      "time": "2:00",
+      "attendees": [],
+      "id": 2204762
+    },
+    {
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "afd",
+      "description": "asdf",
+      "location": "asfd",
+      "date": "2019-11-07T20:11:00.000Z",
+      "time": "2:00",
+      "attendees": [],
+      "id": 2204763
+    },
+    {
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "afd",
+      "description": "asdf",
+      "location": "asfd",
+      "date": "2019-11-07T20:11:00.000Z",
+      "time": "2:00",
+      "attendees": [],
+      "id": 2204764
+    },
+    {
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "afd",
+      "description": "asdf",
+      "location": "asfd",
+      "date": "2019-11-07T20:11:00.000Z",
+      "time": "2:00",
+      "attendees": [],
+      "id": 2204765
+    },
+    {
+      "category": "food",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "food",
+      "description": "YUMMY",
+      "location": "kitchin",
+      "date": "2019-11-23T20:18:00.000Z",
+      "time": "6:00",
+      "attendees": [],
+      "id": 2204766
+    },
+    {
+      "category": "food",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "FOODI",
+      "description": "FOODKITCHIN",
+      "location": "asdf",
+      "date": "2019-11-07T20:19:00.000Z",
+      "time": "5:00",
+      "attendees": [],
+      "id": 2204767
+    },
+    {
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "Housing",
+      "description": "try",
+      "location": "again",
+      "date": "2019-11-12T20:22:00.000Z",
+      "time": "4:00",
+      "attendees": [],
+      "id": 2204768
+    },
+    {
+      "category": "food",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "asdf",
+      "description": "asassasd",
+      "location": "asdfdfs",
+      "date": "2019-11-12T20:24:00.000Z",
+      "time": "4:00",
+      "attendees": [],
+      "id": 2204769
+    },
+    {
+      "category": "housing",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "ad",
+      "description": "ad",
+      "location": "asdf",
+      "date": "2019-11-04T20:29:00.000Z",
+      "time": "4:00",
+      "attendees": [],
+      "id": 2204770
+    },
+    {
+      "id": 3022806,
+      "category": "education",
+      "organizer": {
+        "id": "abc123",
+        "name": "Adam Jahr"
+      },
+      "title": "adfs",
+      "description": "sdf",
+      "location": "ads",
+      "date": "2019-11-04T20:31:00.000Z",
+      "time": "3:00",
       "attendees": []
     }
   ]
