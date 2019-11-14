@@ -67,7 +67,7 @@ export default {
       times.push(i + ':00')
     }
     return {
-      event: this.createFreshEvent(),
+      event: this.createFreshEventObject(), // event is createFreshEventObject
       times,
       categories: this.$store.state.categories
     }
@@ -88,7 +88,7 @@ export default {
           console.log('There was a problem creating your event.')
         })
     },
-    createFreshEvent() {
+    createFreshEventObject() {
       const user = this.$store.state.user
       const id = Math.floor(Math.random() * 10000000)
 

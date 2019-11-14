@@ -31,7 +31,7 @@
 <script>
 import EventService from '@/services/EventService.js'
 export default {
-  props: ['id'],
+  props: ['id'], // is ID being passed from query params?
   data() {
     return {
       event: {}
