@@ -34,9 +34,23 @@ import { mapState } from 'vuex'
 export default {
   props: ['id'], // is ID being passed from query params?
   created() {
-    this.$store.dispatch('fetchEvent', this.id)
+    this.$store.dispatch('event/fetchEvent', this.id)
+    // this.fetchEvent(this.id)
   },
-  computed: mapState(['event'])
+  // computed: mapState({
+  //   event: state => {
+  //     console.log(state.event)
+  //     console.log(state.event.title)
+  //
+  //     return state.event
+  //   }
+  // }),
+  computed: mapState({
+    event: state => {
+      return state.event.event
+    }
+  })
+  // methods: mapActions('event', ['fetchEvent'])
 }
 </script>
 <style scoped>
