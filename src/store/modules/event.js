@@ -60,7 +60,6 @@ export const getters = {
     console.log('events: ')
     console.log(state.events)
     console.log('id', id)
-    // return state.events.filter(event => event.id === id)
     return state.events.find(event => event.id === id)
   }
 }
